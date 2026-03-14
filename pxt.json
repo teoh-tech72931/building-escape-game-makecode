@@ -1,0 +1,37 @@
+{
+    "name": "Building escape",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "darts": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
+        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.2.0",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.12.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v2.0.62",
+        "tag": "v2.0.62",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/78fef54853ad3c71c6dcf0886b1083107d9abad2",
+        "target": "4.0.12",
+        "pxt": "11.3.66",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
